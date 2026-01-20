@@ -3,6 +3,9 @@ import cors from "cors";
 import dotenv from "dotenv";
 import connectDB from "./config/db.js";
 
+import listingRoutes from "./routes/listingRoutes.js";
+import cityRoutes from "./routes/cityRoutes.js"; // ✅ THIS LINE
+
 dotenv.config();
 connectDB();
 
@@ -14,6 +17,9 @@ app.use(express.json());
 app.get("/", (req, res) => {
   res.send("Arrivio backend running 🚀");
 });
+
+app.use("/api/listings", listingRoutes);
+app.use("/api/cities", cityRoutes); // ✅ THIS LINE
 
 const PORT = process.env.PORT || 5000;
 

@@ -17,22 +17,22 @@ import communityBg from '../../assets/communityBg.png';
 const BUBBLE_DATA = [
   // 🌿 CLUB CHATS — POSITIVE & FRIENDLY
 
-  { type: "text", name: "Aarav", content: "The hiking club last weekend was amazing 😍" },
+  { type: "text", name: "Harry", content: "The hiking club last weekend was amazing 😍" },
   { type: "text", name: "Maya", content: "Right?? The sunrise view was totally worth it 🌄" },
 
   { type: "text", name: "Rohan", content: "Dance club starts in a few days yayyyyy 💃✨" },
-  { type: "text", name: "Sana", content: "I’m so excited!! Been waiting for this 😭🩰" },
+  { type: "text", name: "Likhitha", content: "I’m so excited!! Been waiting for this 😭🩰" },
 
   { type: "text", name: "Kabir", content: "Anyone joining the photography club this time?" },
-  { type: "text", name: "Ishita", content: "Me! I want to learn night photography 🌙📸" },
+  { type: "text", name: "Violet", content: "Me! I want to learn night photography 🌙📸" },
 
-  { type: "text", name: "Neha", content: "Yoga club on the terrace today 🧘‍♀️" },
+  { type: "text", name: "Lilly", content: "Yoga club on the terrace today 🧘‍♀️" },
   { type: "text", name: "Arjun", content: "Count me in. I need some calm after the week 😌" },
 
   { type: "text", name: "Zoya", content: "Sunday brunch this week? 🥞☕" },
   { type: "text", name: "Rahul", content: "Yes please! I missed the last one 😭" },
 
-  { type: "text", name: "Aditi", content: "Book club picked a new novel 📚✨" },
+  { type: "text", name: "Wang Lee", content: "Book club picked a new novel 📚✨" },
   { type: "text", name: "Varun", content: "Niceee, I’ll join this time for sure" },
 
   { type: "text", name: "Farhan", content: "Game night in the lounge tonight 🎮" },
